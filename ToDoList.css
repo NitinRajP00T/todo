@@ -1,0 +1,101 @@
+
+html {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: conic-gradient(rgba(0, 68, 255, 0.545) 35deg, rgba(17, 255, 0, 0.463), rgba(181, 3, 151, 0.33), rgba(226, 244, 63, 0.788) 90%); */
+    background-image: url("/nightStarts.jpg");
+    opacity: 1;
+    
+    height:100%;
+    
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+    margin: 0;
+    padding: 0;
+   }
+ 
+
+.container{
+
+margin: 4px;
+display: flex;
+align-items: center;
+margin-bottom: 10px; 
+
+}
+input{
+    font-size: 20px;
+    padding: 3px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+.addbtn{
+    margin-top: 4px;
+    height: 45px;
+    font-size: 12px;
+    border: rgba(255, 228, 196, 0.601);
+    margin-bottom: 0px;
+    background-color: rgba(215, 202, 202, 0.797);
+  
+}
+ul{
+   
+    display: flex;
+  align-items: center;
+  justify-content:center;
+ flex-direction: column;
+ list-style-type: none;
+ margin: 3rem;
+ gap:5px;
+ padding: 7px;
+  border: 3px solid rgba(204, 202, 202, 0);
+  background-color: transparent;
+  box-shadow:5px 5px 14px rgba(16, 72, 228, 0.47) ;
+}
+.select{
+    background-color: transparent;
+}
+.list{
+/* width: 85%; */
+width:98%;
+height: 25px;
+    margin-top:1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 5px;
+    color:rgb(241, 236, 236);
+    padding: 10px;
+    background-color: rgba(212, 200, 200, 0.448);
+    margin: 2px;
+ 
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(14, 6, 70, 0.595);
+
+}
+.list:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.btnContainer{
+    background: none;;
+    border: none;
+
+}
+.list button {
+    margin-left: 8px;
+}
+
+.list-text{
+    flex-grow: 1;
+    padding-left:2px ;
+    overflow-wrap: break-word;
+}
